@@ -1,0 +1,5 @@
+{
+  "name": "RevOps Data Mesh Tile",
+  "description": "A high-fidelity, animated dashboard tile representing a Data Sync Mesh, migrated from a static prototype to a reactive component.",
+  "requestFramePermissions": []
+}

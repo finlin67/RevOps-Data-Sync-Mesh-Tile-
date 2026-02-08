@@ -1,11 +1,23 @@
-<div align="center">
+# RevOps Data Sync Mesh Tile
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A high-fidelity, animated React component visualizing a data synchronization mesh. Migrated from a raw HTML/Tailwind prototype into a standalone, reusable React module with Framer Motion animations.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
+- **React 18+**: Functional components with Hooks.
+- **Tailwind CSS**: For all styling, including arbitrary values for gradients and precise sizing.
+- **Framer Motion**: For orchestrating the heartbeat animations, orbiting elements, and background grid movements.
+- **Lucide React**: For scalable, clean SVG iconography replacing the original Material Symbols.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Usage
+1. Ensure dependencies are installed:
+   ```bash
+   npm install lucide-react framer-motion clsx tailwind-merge
+   ```
+2. Import the component:
+   ```tsx
+   import RevOpsMeshTile from './components/RevOpsMeshTile';
+   ```
+3. Place it in your layout. Note that the component has a fixed internal dimension of `600px x 600px` as per the design requirements. To make it responsive, scale it using CSS transforms or a container query wrapper if needed, though it is designed as a rigid "dashboard tile".
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## App Name
+**RevOps Mesh Dashboard**
