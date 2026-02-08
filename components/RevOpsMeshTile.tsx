@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useState } from "react";
 import { 
   Download, 
@@ -6,14 +8,11 @@ import {
   Zap, 
   Database, 
   Megaphone, 
-  RefreshCw,
-  Activity 
+  RefreshCw
 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function RevOpsMeshTile() {
-  const [activeTab, setActiveTab] = useState(0);
-  
   // Simulate some live data updates for the "Latency" or stats
   const [latency, setLatency] = useState(14);
   
